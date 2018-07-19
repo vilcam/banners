@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+body, body * {
+	vertical-align:baseline;
+	border:0 none;
+	outline:0;
+	padding:0;
+	margin:0;
+	background-repeat:no-repeat;
+}
+
+div { position: absolute; }
+
+#container {
+	margin: auto;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border:1px solid #000;
+	cursor:pointer;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #fff;
+}
+
+.group {
+	left:0px;
+	top:0px;
+	width:160px;
+	height:600px;
+	overflow: hidden;
+}
+
+#exitBtn {
+	visibility:visible;
+	background-color: #000;
+	opacity:0;
+}
+
+.sprite-bg{
+    background-image: url("bg.jpg");
+    width: 160px;
+    height: 600px;
+}
+.sprite-endframe{
+    background-image: url("endframe.jpg");
+    width: 160px;
+    height: 600px;
+}
+
+/**   SPRITESHEET   **/
+
+
+.sprite {
+  background-image: url('spritesheet.png');
+}
+
+.sprite-cta {
+  background-position: -0px -653px;
+  width: 136px;
+  height: 121px;
+}
+.sprite-frame1_0 {
+  background-position: -0px -0px;
+  width: 160px;
+  height: 343px;
+}
+.sprite-frame1_1 {
+  background-position: -320px -0px;
+  width: 160px;
+  height: 310px;
+}
+.sprite-frame2_0 {
+  background-position: -640px -343px;
+  width: 160px;
+  height: 216px;
+}
+.sprite-frame2_1 {
+  background-position: -480px -0px;
+  width: 160px;
+  height: 310px;
+}
+.sprite-frame3_0 {
+  background-position: -160px -343px;
+  width: 160px;
+  height: 271px;
+}
+.sprite-frame3_1 {
+  background-position: -640px -0px;
+  width: 160px;
+  height: 310px;
+}
+.sprite-frame4_0 {
+  background-position: -480px -343px;
+  width: 160px;
+  height: 232px;
+}
+.sprite-frame4_1 {
+  background-position: -160px -0px;
+  width: 160px;
+  height: 310px;
+}
+.sprite-frame5_0 {
+  background-position: -320px -343px;
+  width: 160px;
+  height: 271px;
+}
+.sprite-frame5_1 {
+  background-position: -0px -343px;
+  width: 160px;
+  height: 310px;
+}
+.sprite-replay {
+  background-position: -729px -310px;
+  width: 18px;
+  height: 16px;
+}
+.sprite-txt1 {
+  background-position: -136px -653px;
+  width: 124px;
+  height: 121px;
+}
+.sprite-txtOffer1 {
+  background-position: -160px -310px;
+  width: 108px;
+  height: 10px;
+}
+.sprite-txtOffer2 {
+  background-position: -480px -310px;
+  width: 85px;
+  height: 24px;
+}
+.sprite-txtOffer3 {
+  background-position: -320px -310px;
+  width: 77px;
+  height: 24px;
+}
+.sprite-txtOffer4 {
+  background-position: -640px -310px;
+  width: 89px;
+  height: 24px;
+}

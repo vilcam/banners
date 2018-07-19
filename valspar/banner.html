@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HTML 5 Ad Template for FCB-Chicago -->
+<head>
+	<title>Valspar Banner</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+    <meta name="ad.size" content="width=300,height=600">
+	<style type="text/css">
+		#loading 		{ width:100%; height:100%; background-color:white;}
+		#loadingImage 	{ position:absolute; left:50%; margin-left:-15px; top:50%; margin-top:-15px; }
+		.preload		{ width:100; height:100; overflow: hidden; }
+		.hide 			{ opacity:0; }
+	</style>
+    
+    <script>
+    	var clickTag = "https://www.valsparpaint.com/lowes";
+    	document.addEventListener("DOMContentLoaded", function(event) { 
+	 		politeInit();
+		});
+		function politeInit() {
+			var head = document.getElementsByTagName("head")[0];
+			var s = document.createElement("script");
+			s.type = "text/javascript";
+			s.src = "banner.js";
+			head.appendChild(s);
+
+			link = document.createElement('link');
+			link.type = 'text/css';
+			link.rel = 'stylesheet';
+			link.href = 'banner.css';
+			head.appendChild(link);
+		}
+	</script> 
+    	    
+</head>
+<body>
+	<!-- Preload Images -->
+	<div class="preload hide">
+		<img src="spritesheet.png" />
+	</div>
+
+	<!-- Loading Animation -->
+	<div id="loading">
+        <div id="loadingImage">
+            <img src="loading_dcs.gif">
+        </div>    
+    </div>
+    
+    <!-- Main Content -->
+    <div id="container" class="hide group">
+        <div id="content">
+	
+			<div class='bg_colorContainer' id="squareBgs">
+				
+			</div>
+			
+
+			<div class='sprite sprite-chameleon'></div>
+			<div class='sprite sprite-logo_valspar'></div>
+			<div class='sprite sprite-txt1'></div>
+			<div class='sprite sprite-txt2'></div>
+
+	
+			<div class="footer group">
+				<div class='sprite sprite-logo_lowe'></div>
+			</div>
+			
+			<div id="exitBtn" class="group"></div>
+			<div id="replayBtn" class='sprite sprite-replay'></div> 
+		</div>
+
+	</div>
+
+</body>
+</html>

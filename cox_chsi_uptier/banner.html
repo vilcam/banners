@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HTML 5 Ad Template for Flashtalking by FCB-Chicago -->
+<head>
+	<title>Cox Banner</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+    <meta name="ad.size" content="width=160,height=600">
+	<style type="text/css">
+		#loading 		{ width:100%; height:100%; background-color:white;}
+		#loadingImage 	{ position:absolute; left:50%; margin-left:-15px; top:50%; margin-top:-15px; }
+		.preload		{ width:100; height:100; overflow: hidden; }
+		.hide 			{ opacity:0; }
+	</style>
+    
+    <script>
+    	var clickTag = "http://www.cox.com";
+    	document.addEventListener("DOMContentLoaded", function(event) { 
+	 		politeInit();
+		});
+		function politeInit() {
+			var head = document.getElementsByTagName("head")[0];
+			var s = document.createElement("script");
+			s.type = "text/javascript";
+			s.src = "banner.js";
+			head.appendChild(s);
+
+			link = document.createElement('link');
+			link.type = 'text/css';
+			link.rel = 'stylesheet';
+			link.href = 'banner.css';
+			head.appendChild(link);
+		}
+	</script> 
+    	    
+</head>
+<body>
+	<!-- Preload Images -->
+	<div class="preload hide">
+		<img src="spritesheet.png" />
+		<img src="sheen.png" />
+	</div>
+
+	<!-- Loading Animation -->
+	<div id="loading">
+        <div id="loadingImage">
+            <img src="loading_generic.gif">
+        </div>    
+    </div>
+    
+    <!-- Main Content -->
+    <div id="container" class="hide group">
+        <div id="content">
+
+
+		<div class='sprite-bg'></div>
+		<div class='sprite sprite-device1_laptop'></div>
+		<div class='sprite sprite-device1_iphone'></div>
+		<div class='sprite sprite-txt1'></div>
+		<div class='sprite sprite-device2_tablet'></div>
+		<div class='sprite sprite-device2_iphone'></div>
+		<div class='sprite sprite-device2_watch'></div>
+		<div class='sprite sprite-device2_headphones'></div>
+		<div class='sprite sprite-txt2'></div>
+		<div class='sprite sprite-device3_ipad'></div>
+		<div class='sprite sprite-txt3'></div>
+		<div class='sprite sprite-devices'></div>
+		<div class='sprite sprite-txt4'></div>
+		<div class='sprite sprite-price'></div>
+		<div class='sprite sprite-txt5'></div>
+		<div class='sprite sprite-txt6'></div>
+		
+		
+	
+			<div class="footer group">
+				<div class='sprite sprite-cta'></div>
+				<div class="ctaSheen ">
+					<svg width="136" height="41" baseprofile="full" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<defs>
+							<mask id="ctaSheenMask">
+								<polygon points="1,0,121,0,136,22,122,41,0,41" fill="#fff" />
+							</mask>
+						</defs>
+						<image class="sheen" mask="url(#ctaSheenMask)" width="163" height="41" y="0" x="-95" xlink:href="sheen.png" />
+					</svg>
+				</div>
+				<div class='sprite sprite-txtOffer'></div>
+				<div class='sprite sprite-logo'></div>
+			</div>
+			
+			<div id="exitBtn" class="group"></div>
+			<div id="replayBtn" class='sprite sprite-replay'></div> 
+		</div>
+
+	</div>
+<script src='https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js'></script>
+</body>
+</html>

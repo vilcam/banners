@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--
+FCBOFFCODE HTML 5 Ad Template
+-->
+
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- init adsizemeta -->
+    <meta name="ad.size" content="width=300,height=600">
+    <!-- end adsizemeta -->
+    <!-- init headScript -->
+
+    <!-- end headScript -->
+    <style type="text/css">
+      #loading {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+      }
+
+      #loadingImage {
+        position: absolute;
+        left: 50%;
+        margin-left: -15px;
+        top: 50%;
+        margin-top: -15px;
+      }
+
+      .preload {
+        width: 100;
+        height: 100;
+        overflow: hidden;
+      }
+
+      .hide {
+        opacity: 0;
+      }
+    </style>
+    <!-- init politeScript -->
+    <script>
+      var clickTag = "https://www.google.com";
+      document.addEventListener("DOMContentLoaded", function(event) {
+        politeInit();
+      });
+
+      function politeInit() {
+        var head = document.getElementsByTagName("head")[0];
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.src = "banner.js";
+        head.appendChild(s);
+        link = document.createElement("link");
+        link.type = "text/css";
+        link.rel = "stylesheet";
+        link.href = "banner.css";
+        head.appendChild(link);
+      }
+    </script>
+    <!-- end politeScript -->
+  </head>
+
+  <body>
+    <!-- Preload Images -->
+    <div class="preload hide">
+      <img src="spritesheet.png">
+      <img src="sheen.png">
+    </div>
+
+    <!-- Loading Animation -->
+    <div id="loading">
+      <div id="loadingImage">
+        <img src="loading_generic.gif">
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="container" class="hide group">
+      <!-- init htmlClicktagOpen -->
+
+      <!-- end htmlClicktagOpen -->
+      <div id="content">
+
+        <div class="footer group">
+        </div>
+
+        <div class="sprite sprite-bg0"></div>
+
+        <div class="sprite sprite-usd_gray"></div>
+        <div id="slotGray" class="slot">
+          <div class="number"></div>
+          <div class="number"></div>
+          <div class="number"></div>
+          <div class="number"></div>
+          <div class="number"></div>
+        </div>
+
+        <div class="sprite sprite-usd_blue"></div>
+        <div id="slotBlue" class="slot">
+          <div class="number"></div>
+          <div class="number"></div>
+          <div class="number"></div>
+          <div class="number"></div>
+          <div class="number"></div>
+          <div class="number"></div>
+        </div>
+        <div class="group" id="containerBubbles"></div>
+
+        <div class="sprite sprite-legal"></div>
+        <div class="sprite sprite-versus"></div>
+        <div class="sprite sprite-txt0_1"></div>
+        <div class="sprite sprite-txt0_0"></div>
+        <div class="sprite sprite-txt0_2"></div>
+
+        <div class="sprite sprite-bg1"></div>
+        <div class="sprite-bgScroll"></div>
+
+        <div class="sprite sprite-txt1_0"></div>
+        <div class="sprite sprite-line"></div>
+        <div class="sprite sprite-pricepoint"></div>
+        <div class="sprite sprite-txt1_1"></div>
+
+        <div class="sprite sprite-footer"></div>
+        <div class="sprite sprite-cta">
+          <div class="ctaSheen">
+            <svg width="119" height="36" baseProfile="full" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+              <defs>
+                <mask id="ctaSheenMask">
+                  <polygon points="0,0 119,0 119,36 0,36" fill="#fff" />
+                </mask>
+              </defs>
+              <image class="sheen" mask="url(#ctaSheenMask)" width="60" height="60" y="-12" x="30" href="sheen.png" />
+            </svg>
+          </div>
+        </div>
+
+        <div id="exitBtn" class="group"></div>
+        <div id="replayBtn" class="sprite sprite-replay"></div>
+      </div>
+      <!-- init htmlClicktagClose -->
+
+      <!-- end htmlClicktagClose -->
+    </div>
+    <!-- init footerScript -->
+
+    <!-- end footerScript -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+</html>

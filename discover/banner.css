@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+body, body * {
+    vertical-align: baseline;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+div {
+    position: absolute;
+}
+
+#container {
+    margin: auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+}
+
+.group {
+    left: 0px;
+    top: 0px;
+  /** init bannerWidth **/
+    height: 600px;
+/** end bannerWidth **/
+  /** init bannerHeight **/
+    width: 300px;
+/** end bannerHeight **/
+    overflow: hidden;
+}
+
+#exitBtn {
+    visibility: visible;
+    background-color: #000;
+    opacity: 0;
+}
+
+.slot {
+}
+
+.slot .number {
+    background-size: 35px auto;
+}
+
+#slotBlue, #slotGray {
+    position: absolute;
+    overflow: hidden;
+}
+
+#slotBlue .number {
+    background-image: url('num_blue.png');
+}
+
+.number {
+    position: relative;
+    width: 35px;
+    height: 60px;
+    float: left;
+    background-repeat: repeat;
+}
+
+#slotGray .number {
+    background-image: url('num_gray.png');
+}
+
+.moneyBubble {
+    background: url('moneyBubble.png');
+    width: 23px;
+    height: 24px;
+    position: absolute;
+}
+
+
+
+/** init spritesheet **/
+
+.sprite {
+    background-image: url('spritesheet.png');
+}
+
+.sprite-cta {
+    background-position: -0px -262px;
+    width: 119px;
+    height: 36px;
+}
+
+.sprite-footer {
+    background-position: -0px -0px;
+    width: 300px;
+    height: 55px;
+}
+
+.sprite-legal {
+    background-position: -0px -232px;
+    width: 223px;
+    height: 30px;
+}
+
+.sprite-line {
+    background-position: -220px -109px;
+    width: 73px;
+    height: 1px;
+}
+
+.sprite-pricepoint {
+    background-position: -0px -55px;
+    width: 220px;
+    height: 66px;
+}
+
+.sprite-txt0_0 {
+    background-position: -0px -121px;
+    width: 213px;
+    height: 59px;
+}
+
+.sprite-txt0_1 {
+    background-position: -119px -262px;
+    width: 109px;
+    height: 14px;
+}
+
+.sprite-txt0_2 {
+    background-position: -220px -99px;
+    width: 71px;
+    height: 10px;
+}
+
+.sprite-txt1_0 {
+    background-position: -0px -180px;
+    width: 223px;
+    height: 52px;
+}
+
+.sprite-txt1_1 {
+    background-position: -119px -276px;
+    width: 121px;
+    height: 10px;
+}
+
+.sprite-usd_blue {
+    background-position: -213px -121px;
+    width: 31px;
+    height: 50px;
+}
+
+.sprite-usd_gray {
+    background-position: -244px -121px;
+    width: 31px;
+    height: 50px;
+}
+
+.sprite-versus {
+    background-position: -220px -55px;
+    width: 50px;
+    height: 44px;
+}
+
+.sprite-bg0 {
+    width: 300px;
+    height: 545px;
+    background: url('bg0.jpg');
+}
+
+.sprite-bg1 {
+    width: 300px;
+    height: 545px;
+    background: url('bg1.jpg');
+}
+
+.sprite-bgScroll {
+    width: 300px;
+    height: 545px;
+    background: url('bgScroll.jpg');
+}
+
+/** end spritesheet **/

@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body, body * {
+	vertical-align:baseline;
+	border:0 none;
+	outline:0;
+	padding:0;
+	margin:0;
+	background-repeat:no-repeat;
+}
+
+div { position: absolute; }
+
+#container {
+	margin: auto;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border:1px solid #000;
+	cursor:pointer;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #fff;
+}
+
+.group {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	overflow: hidden;
+}
+
+#exitBtn {
+	visibility:visible;
+	background-color: #000;
+	opacity:0;
+}
+
+.sprite-bg{
+    background-image: url(bg.jpg);
+    background-repeat: repeat-x;
+    width: 1480px;
+    height: 250px;
+
+}
+
+/** spritesheet **/
+
+
+
+.sprite {
+  background-image: url('spritesheet.png');
+}
+
+.sprite-device1 {
+  background-position: -187px -0px;
+  width: 184px;
+  height: 156px;
+}
+.sprite-device2 {
+  background-position: -0px -157px;
+  width: 77px;
+  height: 265px;
+}
+.sprite-devices3 {
+  background-position: -77px -283px;
+  width: 160px;
+  height: 107px;
+}
+.sprite-devices4 {
+  background-position: -0px -0px;
+  width: 187px;
+  height: 157px;
+}
+.sprite-footer {
+  background-position: -371px -0px;
+  width: 316px;
+  height: 42px;
+}
+.sprite-pricepoint {
+  background-position: -568px -42px;
+  width: 102px;
+  height: 46px;
+}
+.sprite-replay {
+  background-position: -670px -42px;
+  width: 12px;
+  height: 11px;
+}
+.sprite-txt0_0 {
+  background-position: -371px -171px;
+  width: 164px;
+  height: 13px;
+}
+.sprite-txt0_1 {
+  background-position: -371px -145px;
+  width: 258px;
+  height: 26px;
+}
+.sprite-txt0_2 {
+  background-position: -371px -184px;
+  width: 64px;
+  height: 26px;
+}
+.sprite-txt1 {
+  background-position: -371px -42px;
+  width: 197px;
+  height: 66px;
+}
+.sprite-txt2 {
+  background-position: -77px -157px;
+  width: 276px;
+  height: 63px;
+}
+.sprite-txt3 {
+  background-position: -77px -220px;
+  width: 274px;
+  height: 63px;
+}
+.sprite-txt4 {
+  background-position: -371px -108px;
+  width: 276px;
+  height: 37px;
+}
+

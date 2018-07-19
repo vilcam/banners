@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+body, body * {
+    vertical-align: baseline;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+div {
+    position: absolute;
+}
+
+#container {
+    margin: auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+}
+
+.group {
+    left: 0px;
+    top: 0px;
+  /** init bannerWidth **/
+    height: 250px;
+/** end bannerWidth **/
+  /** init bannerHeight **/
+    width: 300px;
+/** end bannerHeight **/
+    overflow: hidden;
+}
+
+#exitBtn {
+    visibility: visible;
+    background-color: #000;
+    opacity: 0;
+}
+
+
+/** init spritesheet **/
+
+.sprite {
+    background-image: url('spritesheet.png');
+}
+
+.sprite-backup {
+    background-position: -0px -202px;
+    width: 300px;
+    height: 250px;
+}
+
+.sprite-box0 {
+    background-position: -0px -452px;
+    width: 149px;
+    height: 149px;
+}
+
+.sprite-box1 {
+    background-position: -401px -171px;
+    width: 157px;
+    height: 200px;
+}
+
+.sprite-cta {
+    background-position: -297px -529px;
+    width: 300px;
+    height: 39px;
+}
+
+.sprite-device0 {
+    background-position: -701px -0px;
+    width: 165px;
+    height: 84px;
+}
+
+.sprite-device1 {
+    background-position: -401px -0px;
+    width: 300px;
+    height: 171px;
+}
+
+.sprite-device2 {
+    background-position: -0px -0px;
+    width: 401px;
+    height: 202px;
+}
+
+.sprite-laptop {
+    background-position: -701px -84px;
+    width: 127px;
+    height: 64px;
+}
+
+.sprite-phone {
+    background-position: -701px -148px;
+    width: 53px;
+    height: 60px;
+}
+
+.sprite-replay {
+    background-position: -828px -99px;
+    width: 18px;
+    height: 17px;
+}
+
+.sprite-tv {
+    background-position: -149px -452px;
+    width: 148px;
+    height: 126px;
+}
+
+.sprite-txt0 {
+    background-position: -446px -601px;
+    width: 240px;
+    height: 48px;
+}
+
+.sprite-txt1 {
+    background-position: -297px -452px;
+    width: 233px;
+    height: 77px;
+}
+
+.sprite-txt2 {
+    background-position: -149px -578px;
+    width: 268px;
+    height: 18px;
+}
+
+.sprite-txt3 {
+    background-position: -0px -601px;
+    width: 223px;
+    height: 69px;
+}
+
+.sprite-txt4 {
+    background-position: -401px -371px;
+    width: 273px;
+    height: 69px;
+}
+
+.sprite-txt5 {
+    background-position: -223px -601px;
+    width: 223px;
+    height: 69px;
+}
+
+.sprite-txtInternet {
+    background-position: -754px -163px;
+    width: 83px;
+    height: 12px;
+}
+
+.sprite-txtOffer {
+    background-position: -754px -175px;
+    width: 94px;
+    height: 8px;
+}
+
+.sprite-txtPhone {
+    background-position: -754px -148px;
+    width: 68px;
+    height: 15px;
+}
+
+.sprite-txtTv {
+    background-position: -828px -84px;
+    width: 30px;
+    height: 15px;
+}
+
+.sprite-bg4 {
+    width: 728px;
+    height: 728px;
+    background: url('bg4.jpg');
+}
+
+.sprite-bg3 {
+    width: 300px;
+    height: 250px;
+    background: url('bg3.jpg');
+}
+
+.sprite-bg2 {
+    width: 300px;
+    height: 250px;
+    background: url('bg2.jpg');
+}
+
+.sprite-bg1 {
+    width: 300px;
+    height: 250px;
+    background: url('bg1.jpg');
+}
+
+.sprite-bg0 {
+    width: 300px;
+    height: 250px;
+    background: url('bg0.jpg');
+}
+
+/** end spritesheet **/
