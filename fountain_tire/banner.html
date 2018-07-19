@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--
+FCBOFFCODE HTML 5 Ad Template
+-->
+
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- init adsizemeta -->
+    <meta name="ad.size" content="width=300,height=250">
+    <!-- end adsizemeta -->
+    <!-- init headScript -->
+
+    <!-- end headScript -->
+    <style type="text/css">
+      #loading {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+      }
+
+      #loadingImage {
+        position: absolute;
+        left: 50%;
+        margin-left: -15px;
+        top: 50%;
+        margin-top: -15px;
+      }
+
+      .preload {
+        width: 100;
+        height: 100;
+        overflow: hidden;
+      }
+
+      .hide {
+        opacity: 0;
+      }
+    </style>
+    <!-- init politeScript -->
+    <script>
+      var clickTag = "https://www.fountaintire.com";
+      document.addEventListener("DOMContentLoaded", function(event) {
+        politeInit();
+      });
+
+      function politeInit() {
+        var head = document.getElementsByTagName("head")[0];
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.src = "banner.js";
+        head.appendChild(s);
+        link = document.createElement("link");
+        link.type = "text/css";
+        link.rel = "stylesheet";
+        link.href = "banner.css";
+        head.appendChild(link);
+      }
+    </script>
+    <!-- end politeScript -->
+  </head>
+
+  <body>
+    <!-- Preload Images -->
+    <div class="preload hide">
+      <img src="spritesheet.png">
+      <img src="sheen.png">
+    </div>
+
+    <!-- Loading Animation -->
+    <div id="loading">
+      <div id="loadingImage">
+        <img src="loading_generic.gif">
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="container" class="hide group">
+      <!-- init htmlClicktagOpen -->
+
+      <!-- end htmlClicktagOpen -->
+      <div id="content">
+
+        <!-- background -->
+        <div class="sprite-bg"></div>
+
+        <!-- logo -->
+        <div class="sprite sprite-logo0" id="logo0"></div>
+        <div class="sprite sprite-logo1" id="logo1"></div>
+        <div class="sprite sprite-logo2" id="logo2"></div>
+
+        <!-- passing lines -->
+        <div class="linesWrapper group" id="linesWrapper">
+          <div id="line0" class="sprite sprite-line"></div>
+          <div id="line1" class="sprite sprite-line"></div>
+          <div id="line2" class="sprite sprite-line"></div>
+          <div id="line3" class="sprite sprite-line"></div>
+          <div id="line4" class="sprite sprite-line"></div>
+        </div>
+
+        <!-- content without sprite-line -->
+        <div class="sprite sprite-txt0" id="txt0"></div>
+        <div class="sprite sprite-txt1" id="txt1"></div>
+        <div class="sprite sprite-txt2" id="txt2"></div>
+        <div class="sprite sprite-lookup"></div>
+        <div class="sprite sprite-cta"></div>
+        <div class="sprite sprite-search"></div>
+        <div class="sprite sprite-legal"></div>
+
+
+
+        <!-- blur filter for line wrapper -->
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="filters">
+          <defs>
+            <filter id="blur">
+              <feGaussianBlur id="blurDeviation" in="SourceGraphic" stdDeviation="0,0" />
+            </filter>
+          </defs>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="filters">
+          <defs>
+            <filter id="blur2">
+              <feGaussianBlur id="blurDeviation2" in="SourceGraphic" stdDeviation="0,0" />
+            </filter>
+          </defs>
+        </svg>
+
+        <div class="group" id="exitBtn"></div>
+      </div>
+      <!-- init htmlClicktagClose -->
+
+      <!-- end htmlClicktagClose -->
+    </div>
+    <!-- init footerScript -->
+
+    <!-- end footerScript -->
+
+
+
+
+
+
+
+  </body>
+
+</html>
